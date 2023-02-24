@@ -1,24 +1,29 @@
-import logo from "./logo.svg";
+import "./App.css";
 import "@aws-amplify/ui-react/styles.css";
+import { API } from "aws-amplify";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 import {
-    withAuthenticator,
-    Button,
-    Heading,
-    Image,
-    View,
-    Card,
-} from "@aws-amplify/ui-react";
+    BrowserRouter,
+    Routes, //replaces "Switch" used till v5
+    Route,
+} from "react-router-dom";
+import Header from "./Components/Header";
+//import { Router } from "@aws-amplify/ui-react/dist/types/components/Authenticator/Router";
 
-function App({ signOut }) {
+//previous navbar componenet
+// import Navbar from './Components/Navbar';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+
+
+
+const App = ({ signOut }) => {
     return (
-        <View className="App">
-            <Card>
-                <Image src={logo} className="App-logo" alt="logo" />
-                <Heading level={1}>We now have Auth!</Heading>
-            </Card>
-            <Button onClick={signOut}>Sign Out</Button>
-        </View>
+        <div className="App">
+            <Header />
+            <p>This is App.js</p>
+        </div>
     );
-}
+};
 
-export default withAuthenticator(App);
+export default App;
+//previously 'export default withAuthenticator(App);

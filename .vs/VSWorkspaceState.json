@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\react-resume",
+    "\\react-resume\\amplify",
+    "\\react-resume\\amplify\\backend",
+    "\\react-resume\\amplify\\backend\\api",
+    "\\react-resume\\amplify\\backend\\api\\reactresume",
+    "\\react-resume\\src",
+    "\\react-resume\\src\\graphql"
+  ],
+  "SelectedNode": "\\react-resume\\src\\graphql\\queries.js",
+  "PreviewInSolutionExplorer": false
+}
