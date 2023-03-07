@@ -1,9 +1,13 @@
 
 import React from 'react';
+import Header from '../Components/Header'
 
 const Resume = () => {
     return (
-        <h1>Here's my resume</h1>
+        <div>
+            <Header />
+            <p>Resume page</p>
+        </div>
     );
 };
 

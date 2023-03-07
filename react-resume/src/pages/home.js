@@ -1,9 +1,14 @@
 
 import React from 'react';
+import Header from '../Components/Header'
 
 const Home = () => {
     return (
-        <h1>Here's the Home page.</h1>
+        <div>
+            <Header />
+            <p>Home page</p>
+        </div>
+
     );
 };
 

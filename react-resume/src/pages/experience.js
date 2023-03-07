@@ -1,9 +1,13 @@
 
 import React from 'react';
+import Header from '../Components/Header'
 
 const Experience = () => {
     return (
-        <h1>Here is my experience at work and projects.</h1>
+        <div>
+            <Header />
+            <p>Experience page</p>
+        </div>
     );
 };
 

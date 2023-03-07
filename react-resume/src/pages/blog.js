@@ -1,9 +1,13 @@
 
 import React from 'react';
+import Header from '../Components/Header'
 
 const Blog = () => {
     return (
-        <h1>Write your blogs!</h1>
+        <div>
+            <Header />
+            <p>Blog page</p>
+        </div>
     );
 };
 

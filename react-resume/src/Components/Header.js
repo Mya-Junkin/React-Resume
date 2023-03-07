@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+import Navbar from './Navbar'
 
 function Header() {
     return (
-        <h1>Header Text</h1>
+        <div>
+            <h1>Mya Junkin</h1>
+            <Navbar />
+        </div>
+
     );
 }
 

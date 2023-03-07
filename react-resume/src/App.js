@@ -1,26 +1,26 @@
 import "./App.css";
-import "@aws-amplify/ui-react/styles.css";
-import { API } from "aws-amplify";
-import { withAuthenticator } from "@aws-amplify/ui-react";
-import {
-    BrowserRouter,
-    Routes, //replaces "Switch" used till v5
-    Route,
-} from "react-router-dom";
-import Header from "./Components/Header";
+//import "@aws-amplify/ui-react/styles.css";
+//import { API } from "aws-amplify";
+//import { withAuthenticator } from "@aws-amplify/ui-react";
 //import { Router } from "@aws-amplify/ui-react/dist/types/components/Authenticator/Router";
-
-//previous navbar componenet
-// import Navbar from './Components/Navbar';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import Experience from './pages/experience';
+import Resume from './pages/resume';
+import Blog from './pages/blog';
 
 
 
 const App = ({ signOut }) => {
     return (
         <div className="App">
-            <Header />
-            <p>This is App.js</p>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/experience' element={<Experience />} />
+                <Route path='/resume' element={<Resume />} />
+                <Route path='/blog' element={<Blog />} />
+            </Routes>
+
         </div>
     );
 };
