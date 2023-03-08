@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Mulish";
+    src: local("Mulish"), url("../../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.Header-Div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+h1  {
+    text-transform: uppercase;
+    font-family: Mulish;
+    font-size: 50px;
+}

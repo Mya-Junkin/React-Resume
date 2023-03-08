@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 //import { Amplify } from 'aws-amplify';
 //import config from './aws-exports';
+import './assets/fonts/Mulish/Mulish-VariableFont_wght.ttf' //font found on Google Fonts
+
 
 //Amplify.configure(config);
 

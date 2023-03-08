@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Mulish";
+    src: local("Mulish"), url("../../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+}
+.Navbar-Div {
+    width: 40em;
+    height: min-content;
+    background-color: #609966;
+    border-radius: 0px 0px 15px 15px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+li {
+    font-family: Mulish;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 0px
+}
+a {
+    color: #2F3438;
+    text-decoration: none;
+}
