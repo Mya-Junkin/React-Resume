@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Mulish";
+    src: local("Mulish"), url("../../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+}
+
+.Home-Body {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    font-family: Mulish;
+    color: #2F3438;
+}
+
+.Left-Col {
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Profile-Pic {
+    align-self: center;
+    height: 200px;
+    border: 5px solid #609966;
+    border-radius: 50%;
+    border-color: #609966;
+}
+
+h4 {
+    width: 200px;
+    text-align: center;
+}
+
+.Left-Sep {
+    border-top: 2px solid #609966;
+    border-radius: 2px;
+    width: 250px;
+}
+
+.Home-Icons  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Right-Col  {
+    padding-right: 200px;
+    padding-left: 50px;
+}
+
+.About-Header {
+    text-align: left;
+    color: #40513B;
+}
+
+.About-Body  {
+    text-align: left;
+    width: 450px;
+}
