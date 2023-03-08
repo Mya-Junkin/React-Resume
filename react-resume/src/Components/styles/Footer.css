@@ -1,0 +1,30 @@
+.Footer-Div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #2F3438;
+
+}
+
+.Footer-Rights {
+    color: #EDF1D6;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.Footer-Icons  {
+    display: flex;
+    align-self: center;
+    padding-right: 30px;
+}
+
+.icon  {
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
