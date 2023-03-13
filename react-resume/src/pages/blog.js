@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './styles/blog.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 
@@ -7,7 +8,9 @@ const Blog = () => {
     return (
         <div>
             <Header />
-            <p>Blog page</p>
+            <div className='Blog-Body'>
+                <p>Blog page</p>
+            </div>
             <Footer />
         </div>
     );

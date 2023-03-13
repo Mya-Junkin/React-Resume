@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\react-resume",
-    "\\react-resume\\amplify\\backend",
-    "\\react-resume\\amplify\\backend\\api",
-    "\\react-resume\\amplify\\backend\\api\\reactresume",
     "\\react-resume\\src",
-    "\\react-resume\\src\\Components",
-    "\\react-resume\\src\\pages"
+    "\\react-resume\\src\\Components\\styles",
+    "\\react-resume\\src\\pages",
+    "\\react-resume\\src\\pages\\styles"
   ],
-  "SelectedNode": "\\react-resume\\src\\index.css",
+  "SelectedNode": "\\react-resume\\src\\pages\\styles\\home.css",
   "PreviewInSolutionExplorer": false
 }

@@ -5,6 +5,7 @@
 }
 
 .Home-Body {
+    min-height: calc(100vh - 100px - 120px); /** subtract the height of the footer and header component */
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
@@ -15,7 +16,6 @@
 .Left-Col {
     padding-left: 200px;
     padding-right: 50px;
-    padding-bottom: 150px;
     width: 250px;
     display: flex;
     flex-direction: column;

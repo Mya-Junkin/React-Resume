@@ -1,0 +1,5 @@
+.Experience-Body {
+    min-height: calc(100vh - 100px - 120px); /** subtract the height of the footer and header component */
+    display: flex;
+    justify-content: space-around;
+}
